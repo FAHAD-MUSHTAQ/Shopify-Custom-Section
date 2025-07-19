@@ -1,0 +1,174 @@
+<style>
+
+.duck-covers-section {
+display: flex;
+flex-direction: column;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.label {
+display: flex;
+  color: #DA3F3F;
+  display: inline-block;
+  padding: 4px 10px;
+  font-weight: bold;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin: 10px 0;
+  color: #222222;
+}
+
+.intro {
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.feature-box {
+  background-color: #ebebeb;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.icon-1 {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.feature-box .text h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.feature-box .text p {
+  margin: 8px 0 0;
+  color: #555;
+}
+
+.icon-1 img {
+    max-width: unset;
+}
+
+@media (max-width: 768px){
+.duck-covers-section {
+align-item: center;
+  text-align: center;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 5px 0;
+  color: #222222;
+}
+.feature-box .text h2 {
+ text-align: left;
+}
+.feature-box .text p {
+  text-align: left;
+}
+section.duck-covers-section {
+    margin: unset;
+    padding: unset;
+}
+
+
+}
+</style>
+
+
+
+  <section class="duck-covers-section">
+    <div class="label">Ultimate Covers</div>
+    <h1>Why Customers Choose ARMOR Covers</h1>
+    <p class="intro">
+      Customers choose Armor Covers for their outdoor furniture and fire pit protection needs due to the brand’s commitment to quality, durability, and innovative design:
+    </p>
+
+  <div class="feature-box">
+  <div class="icon-1">
+    <img src="https://cdn.shopify.com/s/files/1/0907/7332/4110/files/Untitled_design_-_2025-05-27T170133.091.svg?v=1748347302" alt="Waterproof Icon">
+  </div>
+  <div class="text">
+    <h2>Waterproof</h2>
+    <p>
+     Rain just rolls off — zero water absorption, no mildew.
+    </p>
+  </div>
+</div>
+
+<div class="feature-box">
+  <div class="icon-1">
+    <img src="https://cdn.shopify.com/s/files/1/0907/7332/4110/files/Untitled_design_-_2025-05-27T170146.803.svg?v=1748347323" alt="Customizable Fit Icon">
+  </div>
+  <div class="text">
+    <h2>UV Resistance</h2>
+    <p>
+     Protects your furniture and the cover itself from sun damage and fading.
+    </p>
+  </div>
+</div>
+
+<div class="feature-box">
+  <div class="icon-1">
+    <img src="https://cdn.shopify.com/s/files/1/0907/7332/4110/files/Untitled_design_-_2025-05-27T170215.063.svg?v=17483473437" alt="Customizable Fit Icon">
+  </div>
+  <div class="text">
+    <h2>Low Maintenance</h2>
+    <p>
+     Just hose down or wipe with mild soap — no special treatment required.
+    </p>
+  </div>
+</div>
+
+<div class="feature-box">
+  <div class="icon-1">
+    <img src="https://cdn.shopify.com/s/files/1/0907/7332/4110/files/Untitled_design_-_2025-05-27T170238.898.svg?v=1748347368" alt="Customizable Fit Icon">
+  </div>
+  <div class="text">
+    <h2>Lightweight</h2>
+    <p>
+     Easy to handle and store without bulk.
+    </p>
+  </div>
+</div>
+
+<div class="feature-box">
+  <div class="icon-1">
+    <img src="https://cdn.shopify.com/s/files/1/0907/7332/4110/files/Untitled_design_-_2025-05-27T163305.585.svg?v=1748345688" alt="Customizable Fit Icon">
+  </div>
+  <div class="text">
+    <h2>Tear and Stretch Resistant</h2>
+    <p>
+     Reinforced fibres ensure long-term durability without sagging.
+    </p>
+  </div>
+</div>
+
+<div class="feature-box">
+  <div class="icon-1">
+    <img src="https://cdn.shopify.com/s/files/1/0907/7332/4110/files/Untitled_design_-_2025-05-27T170253.127.svg?v=1748347385" alt="Customizable Fit Icon">
+  </div>
+  <div class="text">
+    <h2>Tailored Fit</h2>
+    <p>
+    Made-to-measure using your provided dimensions for a clean, fitted look.
+    </p>
+  </div>
+</div>
+
+  </section>
